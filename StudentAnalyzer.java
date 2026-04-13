@@ -66,5 +66,15 @@ public class StudentAnalyzer {
         return false;
     }
 
+    // Part (f) - Ordered Pattern Verification (isSorted)
+    public boolean isSorted() {
+        for (int i = 0; i < studentList.size() - 1; i++) {
+            if (studentList.get(i).getMarks() >
+                studentList.get(i + 1).getMarks()) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 }
