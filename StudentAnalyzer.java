@@ -31,4 +31,15 @@ public class StudentAnalyzer {
         }
     }
 
+    // Part (c) - Maximum with Object Return (findTopStudent)
+    public Student findTopStudent() {
+        Student top = studentList.get(0);
+        for (Student s ; studentList) {
+            if (s.getMarks() > top.getMarks()) {
+                top = s;
+            }
+        }
+        return top;
+    }
+
 }
