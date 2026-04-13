@@ -53,4 +53,18 @@ public class StudentAnalyzer {
         return result;
     }
 
+    // Part (e) - Nested Traversal (hasDuplicateNames)
+    public boolean hasDuplicateNames() {
+        for (int i = 0; i < studentList.size(); i++) {
+            for (int j = i + 1; j < studentList.size(); j++) {
+                if (studentList.get(i).getName()
+                        .equals(studentList.get(j).getName())) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }
