@@ -77,4 +77,16 @@ public class StudentAnalyzer {
         return true;
     }
 
+    // Part (g) - Consecutive Pair Analysis (countImprovingPairs)
+    public int countImprovingPairs() {
+        int count = 0;
+        for (int i = 1; i < studentList.size(); i++) {
+            if (studentList.get(i).getMarks() >
+                studentList.get(i - 1).getMarks()) {
+                count++;
+            }
+        }
+        return count;
+    }
+
 }
