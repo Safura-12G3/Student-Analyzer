@@ -42,4 +42,15 @@ public class StudentAnalyzer {
         return top;
     }
 
+    // Part (d) - Filtered List Construction (getTopStudents)
+    public ArrayList<Student> getTopStudents(int threshold) {
+        ArrayList<Student> result = new ArrayList<>();
+        for (Student s : studentList) {
+            if (s.getMarks() >= threshold) {
+                result.add(s);
+            }
+        }
+        return result;
+    }
+
 }
