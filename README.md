@@ -43,7 +43,7 @@ java Main
 ---
 **Challenges Faced**
 
-- Figuring out how to remove an element from an ArrayList without erros or skipping items.
+- Figuring out how to remove an element from an ArrayList without errors or skipping items.
 - Understanding nested loops in order for duplicate detection.
 - Making sure the methods worked for all the test cases.
 
