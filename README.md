@@ -58,8 +58,11 @@ java Main
 **Sample Output**
 
 Count above 70: 5
+
 Top student: Fatima
+
 Has duplicates: True
+
 Is sorted: False
 
 ---
